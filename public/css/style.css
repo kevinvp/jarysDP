@@ -1,0 +1,177 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+  background-color: #101010;
+  color: white;
+}
+footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+/*
+ * Custom Fonts
+ * --------------------------------------------------
+ */
+@font-face {
+    font-family: 'Neuropol';
+    src: url("../fonts/NEUROPOL.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: 'Micro Extend';
+    src: url("../fonts/MicroExtendFLF.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Myriad';
+    src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
+body {
+	font-family: 'Myriad';
+}
+
+h1 {
+	 font-family: 'Neuropol';
+}
+
+h2 {
+	font-family: 'Micro Extend';
+}
+
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+/*
+//Same height for divs in a .row
+.row {
+    display: table;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+/*.col-bottom-left, .col-top-left, .col-top-right, .col-bottom-right {
+    text-align: justify;
+    padding: 0 3em 2em 1.5em;
+}*/
+
+h2, a.active, a:focus {
+    color: #4ABEDC;
+}
+
+a, a:hover {
+    color: white;
+}
+
+.col-top-left, .col-top-right, .col-bottom-left, .col-bottom-right {
+	text-align: justify;
+	padding: 0 2em;
+}
+
+.col-top-right > ul {
+	list-style-type: none;
+	padding-left: 0.5em;
+}
+
+.col-top-right > ul > li > span{
+	padding-right: 0.25em;
+}
+
+h2 {
+	text-align: left;
+}
+
+hr {
+	border-color: #4ABEDC;
+}
+
+.jumbotron {
+	color: #4ABEDC;
+	border: 1px solid #4ABEDC;
+	padding: 1em;
+	background-color: #333;
+}
+
+.form-group {
+	margin-bottom: 0.5em;
+}
+
+.form-control {
+	padding: 0.15em 0.5em;
+	height: 2em;
+	background-color: #333;
+	border-color: #4ABEDC;
+	color: white;
+}
+
+.btn  {
+    background-color: #4ABEDC;
+}
+
+.examples, .examples-info {
+	border: 1px solid #4ABEDC;
+	border-radius: 6px;
+	padding: 1em;
+}
+
+.examples-info {
+	margin-bottom: 1em;
+}
+
+@media (min-width: 1300px) {
+
+}
