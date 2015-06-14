@@ -109,16 +109,126 @@ h2 {
     padding: 0 3em 2em 1.5em;
 }*/
 
-h2, a.active, a:focus, .jumbotron {
+.home-menu-btn {
+	border-width: 1px;
+	border-style: solid;
+	padding: 1em;
+	background-color: #333;
+	border-radius: 6px;
+	text-align: center;
+	margin: 1.5em 3em;
+}
+
+.home-menu-btn a:hover, .home-menu-btn a:active, .home-menu-btn a:focus{
+	text-decoration: none;
+}
+
+.home-menu-btn h1, .home-menu-btn h1 a {
+	display: block;
+}
+
+/*
+ * Digital Printing
+ * --------------------------------------------------
+ */
+.digitalPrinting h1 a, .digitalPrinting h2, .digitalPrinting a.active, .digitalPrinting a:focus, .digitalPrinting .jumbotron {
     color: #4ABEDC;
 }
 
-hr, .jumbotron, .form-control, .examples, .examples-info {
+.digitalPrinting, .digitalPrinting hr, .digitalPrinting .jumbotron, .digitalPrinting .form-control, .digitalPrinting .examples, .digitalPrinting .examples-info {
 	border-color: #4ABEDC;
 }
 
-.btn  {
+.digitalPrinting .btn  {
     background-color: #4ABEDC;
+    border-color: #2e6da4;
+}
+
+/*
+ * XXl
+ * --------------------------------------------------
+ */
+.xxl h1 a, .xxl h2, .xxl a.active, .xxl a:focus, .xxl .jumbotron {
+    color: #C7376C ;
+}
+
+.xxl, .xxl hr, .xxl .jumbotron, .xxl .form-control, .xxl .examples, .xxl .examples-info {
+	border-color: #C7376C ;
+}
+
+.xxl .btn  {
+    background-color: #C7376C;
+    border-color: #A12D57;
+}
+
+/*
+ * Offset
+ * --------------------------------------------------
+ */
+.offset h1 a, .offset h2, .offset a.active, .offset a:focus, .offset .jumbotron {
+    color: #8FBC13 ;
+}
+
+.offset, .offset hr, .offset .jumbotron, .offset .form-control, .offset .examples, .offset .examples-info {
+	border-color: #8FBC13 ;
+}
+
+.offset .btn  {
+    background-color: #8FBC13;
+    border-color: #81A911;
+}
+
+/*
+ * Web 2 Print
+ * --------------------------------------------------
+ */
+.web2print h1 a, .web2print h2, .web2print a.active, .web2print a:focus, .web2print .jumbotron {
+    color: #F39911 ;
+}
+
+.web2print, .web2print hr, .web2print .jumbotron, .web2print .form-control, .web2print .examples, .web2print .examples-info {
+	border-color: #F39911 ;
+}
+
+.web2print .btn  {
+    background-color: #F39911;
+    border-color: #DB8A0F;
+}
+
+/*
+ * Packaging
+ * --------------------------------------------------
+ */
+.packaging h1 a, .packaging h2, .packaging a.active, .packaging a:focus, .packaging .jumbotron {
+    color: #F1E41B ;
+}
+
+.packaging, .packaging hr, .packaging .jumbotron, .packaging .form-control, .packaging .examples, .packaging .examples-info {
+	border-color: #F1E41B ;
+}
+
+.packaging .btn  {
+    background-color: #F1E41B;
+    border-color: #D9CD18;
+    text-shadow: 3px 0px 2px rgba(150, 150, 150, 1);
+    font-weight: bold;
+}
+
+/*
+ * Creative
+ * --------------------------------------------------
+ */
+.creative h1 a, .creative h2, .creative a.active, .creative a:focus, .creative .jumbotron {
+    color: #D40D1C ;
+}
+
+.creative, .creative hr, .creative .jumbotron, .creative .form-control, .creative .examples, .creative .examples-info {
+	border-color: #D40D1C ;
+}
+
+.creative .btn  {
+    background-color: #D40D1C;
+    border-color: #BF0C19;
 }
 
 a, a:hover {
@@ -130,12 +240,12 @@ a, a:hover {
 	padding: 0 2em;
 }
 
-.col-top-right > ul {
+.col-top-right > ul, .col-bottom-left > ul{
 	list-style-type: none;
 	padding-left: 0.5em;
 }
 
-.col-top-right > ul > li > span{
+.col-top-right > ul > li > span, .col-bottom-left > ul > li > span{
 	padding-right: 0.25em;
 }
 

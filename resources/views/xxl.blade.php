@@ -16,13 +16,13 @@
 	<div class="col-xs-12 col-md-6 col-top-right">
 		<h2>Toepassingen</h2>
 		<ul>
-			<li>Panelen</li>
-            <li>Stoepborden</li>
-            <li>Lichtbakplaten</li>
-            <li>Baches / zeildoeken / werfdoeken</li>
-            <li>Roll-up banners
-            <li>Beach vlaggen / standaard vlaggen / banier</li>
-            <li>Posters</li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Panelen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Stoepborden</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Lichtbakplaten</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Baches / zeildoeken / werfdoeken</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Roll-up banners</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Beach vlaggen / standaard vlaggen / banier</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Posters</a></li>
 		</ul>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop
@@ -31,9 +31,9 @@
 	<div class="col-xs-12 col-md-6 col-bottom-left">
 		<h2>Waarom digitaal?</h2>
         <ul>
-            <li>Ontwerp</li>
-            <li>Project begeleiding</li>
-            <li>Concept uitwerken</li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Ontwerp</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Project begeleiding</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Concept uitwerken</a></li>
         </ul>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop

@@ -16,12 +16,12 @@
 	<div class="col-xs-12 col-md-6 col-top-right">
 		<h2>Toepassingen</h2>
 		<ul>
-			<li>Naamkaarten</li>
-            <li>Mailingkaarten</li>
-            <li>Verhuisberichten</li>
-            <li>Woning magazines</li>
-            <li>Woning brochures</li>
-            <li>Marketingmateriaal</li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Naamkaarten</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Mailingkaarten</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Verhuisberichten</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Woning magazines</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Woning brochures</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Marketingmateriaal</a></li>
 		</ul>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop
