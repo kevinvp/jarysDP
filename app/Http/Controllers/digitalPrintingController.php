@@ -17,6 +17,6 @@ class digitalPrintingController extends Controller {
 		$topic = 'digitalPrinting';
 		$title = 'Digital Printing';
 		
-		return view('digitalPrinting', ['topic' => $topic, 'title' => $title]);
+		return view('digital_printing', ['topic' => $topic, 'title' => $title]);
 	}
 }

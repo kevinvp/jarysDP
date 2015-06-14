@@ -16,17 +16,17 @@
 	<div class="col-xs-12 col-md-6 col-top-right">
 		<h2>Toepassingen</h2>
 		<ul>
-			<li>Binnen verpakking</li>
-            <li>Draagdozen</li>
-            <li>Kussendozen</li>
-            <li>Postdozen</li>
-            <li>Schuifdozen</li>
-            <li>Telescoopdozen</li>
-            <li>Vouwdozen met flappen</li>
-            <li>Hangdozen & hanglabels</li>
-            <li>Hangsleeves & sleeves</li>
-            <li>POS-dozen & POS-display</li>
-            <li>Tentkaart</li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Binnen verpakking</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Draagdozen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Kussendozen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Postdozen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Schuifdozen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Telescoopdozen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Vouwdozen met flappen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Hangdozen & hanglabels</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Hangsleeves & sleeves</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>POS-dozen & POS-display</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Tentkaart</a></li>
 		</ul>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop
@@ -35,11 +35,11 @@
 	<div class="col-xs-12 col-md-6 col-bottom-left">
 		<h2>Wat mag u verwachten?</h2>
         <ul>
-            <li>Kwaliteit</li>
-            <li>Snelheid</li>
-            <li>Service</li>
-            <li>Flexibiliteit</li>
-            <li>Ontwerp</li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span>Kwaliteit</li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span>Snelheid</li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span>Service</li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span>Flexibiliteit</li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span>Ontwerp</li>
         </ul>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop

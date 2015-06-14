@@ -109,8 +109,16 @@ h2 {
     padding: 0 3em 2em 1.5em;
 }*/
 
-h2, a.active, a:focus {
+h2, a.active, a:focus, .jumbotron {
     color: #4ABEDC;
+}
+
+hr, .jumbotron, .form-control, .examples, .examples-info {
+	border-color: #4ABEDC;
+}
+
+.btn  {
+    background-color: #4ABEDC;
 }
 
 a, a:hover {
@@ -135,13 +143,9 @@ h2 {
 	text-align: left;
 }
 
-hr {
-	border-color: #4ABEDC;
-}
-
 .jumbotron {
-	color: #4ABEDC;
-	border: 1px solid #4ABEDC;
+	border-width: 1px;
+	border-style: solid;
 	padding: 1em;
 	background-color: #333;
 }
@@ -154,16 +158,12 @@ hr {
 	padding: 0.15em 0.5em;
 	height: 2em;
 	background-color: #333;
-	border-color: #4ABEDC;
 	color: white;
 }
 
-.btn  {
-    background-color: #4ABEDC;
-}
-
 .examples, .examples-info {
-	border: 1px solid #4ABEDC;
+	border-width: 1px;
+	border-style: solid;
 	border-radius: 6px;
 	padding: 1em;
 }

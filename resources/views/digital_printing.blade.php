@@ -12,16 +12,16 @@
 		<h2>Toepassingen</h2>
 		<ul>
 			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Folders en brochures</a></li>
-			<li><span class=''></span><a href='#'>Prijslijsten</a></li>
-			<li><span class='glyphicon glyphicon-triangle-right'></span><a href='#'>Nieuwsbrieven</a></li>
-			<li><a href='#'>Visitekaartjes</a></li>
-			<li><a href='#'>Les- en cursusmateriaal</a></li>
-			<li><a href='#'>Uitnodigingen</a></li>
-			<li><a href='#'>Verhuisberichten</a></li>
-			<li><a href='#'>Catalogussen</a></li>
-			<li><a href='#'>Geboortekaartjes</a></li>
-			<li><a href='#'>Gepersonaliseerde Mailings</a></li>
-			<li><a href='#'>Jaarverslagen</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Prijslijsten</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Nieuwsbrieven</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Visitekaartjes</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Les- en cursusmateriaal</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Uitnodigingen</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Verhuisberichten</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Catalogussen</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Geboortekaartjes</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Gepersonaliseerde Mailings</a></li>
+			<li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Jaarverslagen</a></li>
 		</ul>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop

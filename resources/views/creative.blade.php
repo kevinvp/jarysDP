@@ -23,10 +23,10 @@
 	<div class="col-xs-12 col-md-6 col-bottom-left">
 		<h2>Wat mag u van ons verwachten?</h2>
 		<ul>
-            <li>Huisstijl</li>
-            <li>Logo</li>
-            <li>Beeld en tekst</li>
-            <li>Partnerschip</li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Huisstijl</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Logo</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Beeld en tekst</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Partnerschip</a></li>
         </ul>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop

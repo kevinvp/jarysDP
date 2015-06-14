@@ -25,17 +25,17 @@
 	<div class="col-xs-12 col-md-6 col-top-right">
 		<h2>Toepassingen</h2>
 		<ul>
-            <li>Folders en brochures</li>
-            <li>Prijslijsten</li>
-            <li>Nieuwsbrieven</li>
-            <li>Visitekaartjes</li>
-            <li>Presentatiemappen</li>
-            <li>Uitnodigingen</li>
-            <li>Affiches</li>
-            <li>Catalogussen</li>
-            <li>Omslagen</li>
-            <li>Doorschrijfsets</li>
-            <li>Jaarverslagen</li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Folders en brochures</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Prijslijsten</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Nieuwsbrieven</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Visitekaartjes</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Presentatiemappen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Uitnodigingen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Affiches</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Catalogussen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Omslagen</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Doorschrijfsets</a></li>
+            <li><span class='glyphicon glyphicon-chevron-right'></span><a href='#'>Jaarverslagen</a></li>
         </ul>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop
