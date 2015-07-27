@@ -10,6 +10,7 @@ body {
   padding-top: 70px;
   background-color: #101010;
   color: white;
+	font-size: 14px;
 }
 footer {
   padding: 30px 0;
@@ -109,7 +110,7 @@ h2 {
     padding: 0 3em 2em 1.5em;
 }*/
 
-.home-menu-btn {
+.home-menu-btn, ul.footer > li > a {
 	border-width: 1px;
 	border-style: solid;
 	padding: 1em;
@@ -127,15 +128,23 @@ h2 {
 	display: block;
 }
 
+ul.home > li > a:hover, ul.home > li > a:active {
+	color: #333333;
+}
+
+.alert-info {
+	background-color: #333;
+}
+
 /*
  * Digital Printing
  * --------------------------------------------------
  */
-.digitalPrinting h1 a, .digitalPrinting h2, .digitalPrinting a.active, .digitalPrinting a:focus, .digitalPrinting .jumbotron {
+.alert-info.digitalPrinting, ul.digitalPrinting > li > a, .digitalPrinting h1 a, .digitalPrinting h2, .digitalPrinting a.active, .digitalPrinting a:focus, .digitalPrinting .jumbotron {
     color: #4ABEDC;
 }
 
-.digitalPrinting, .digitalPrinting hr, .digitalPrinting .jumbotron, .digitalPrinting .form-control, .digitalPrinting .examples, .digitalPrinting .examples-info {
+.alert-info.digitalPrinting, ul.digitalPrinting > li > a, .digitalPrinting, .digitalPrinting hr, .digitalPrinting .jumbotron, .digitalPrinting .form-control, .digitalPrinting .examples, .digitalPrinting .examples-info {
 	border-color: #4ABEDC;
 }
 
@@ -148,11 +157,11 @@ h2 {
  * XXl
  * --------------------------------------------------
  */
-.xxl h1 a, .xxl h2, .xxl a.active, .xxl a:focus, .xxl .jumbotron {
+.alert-info.xxl, ul.xxl > li > a, .xxl h1 a, .xxl h2, .xxl a.active, .xxl a:focus, .xxl .jumbotron {
     color: #C7376C ;
 }
 
-.xxl, .xxl hr, .xxl .jumbotron, .xxl .form-control, .xxl .examples, .xxl .examples-info {
+.alert-info.xxl, ul.xxl > li > a, .xxl, .xxl hr, .xxl .jumbotron, .xxl .form-control, .xxl .examples, .xxl .examples-info {
 	border-color: #C7376C ;
 }
 
@@ -165,11 +174,11 @@ h2 {
  * Offset
  * --------------------------------------------------
  */
-.offset h1 a, .offset h2, .offset a.active, .offset a:focus, .offset .jumbotron {
+.alert-info.offset, ul.offset > li > a, .offset h1 a, .offset h2, .offset a.active, .offset a:focus, .offset .jumbotron {
     color: #8FBC13 ;
 }
 
-.offset, .offset hr, .offset .jumbotron, .offset .form-control, .offset .examples, .offset .examples-info {
+.alert-info.offset, ul.offset > li > a, .offset, .offset hr, .offset .jumbotron, .offset .form-control, .offset .examples, .offset .examples-info {
 	border-color: #8FBC13 ;
 }
 
@@ -182,11 +191,11 @@ h2 {
  * Web 2 Print
  * --------------------------------------------------
  */
-.web2print h1 a, .web2print h2, .web2print a.active, .web2print a:focus, .web2print .jumbotron {
+.alert-info.web2print, ul.web2print > li > a, .web2print h1 a, .web2print h2, .web2print a.active, .web2print a:focus, .web2print .jumbotron {
     color: #F39911 ;
 }
 
-.web2print, .web2print hr, .web2print .jumbotron, .web2print .form-control, .web2print .examples, .web2print .examples-info {
+.alert-info.web2print, ul.web2print > li > a, .web2print, .web2print hr, .web2print .jumbotron, .web2print .form-control, .web2print .examples, .web2print .examples-info {
 	border-color: #F39911 ;
 }
 
@@ -199,11 +208,11 @@ h2 {
  * Packaging
  * --------------------------------------------------
  */
-.packaging h1 a, .packaging h2, .packaging a.active, .packaging a:focus, .packaging .jumbotron {
+.alert-info.packaging, ul.packaging > li > a, .packaging h1 a, .packaging h2, .packaging a.active, .packaging a:focus, .packaging .jumbotron {
     color: #F1E41B ;
 }
 
-.packaging, .packaging hr, .packaging .jumbotron, .packaging .form-control, .packaging .examples, .packaging .examples-info {
+.alert-info.packaging, ul.packaging > li > a, .packaging, .packaging hr, .packaging .jumbotron, .packaging .form-control, .packaging .examples, .packaging .examples-info {
 	border-color: #F1E41B ;
 }
 
@@ -218,11 +227,11 @@ h2 {
  * Creative
  * --------------------------------------------------
  */
-.creative h1 a, .creative h2, .creative a.active, .creative a:focus, .creative .jumbotron {
+.alert-info.creative, ul.creative > li > a, .creative h1 a, .creative h2, .creative a.active, .creative a:focus, .creative .jumbotron {
     color: #D40D1C ;
 }
 
-.creative, .creative hr, .creative .jumbotron, .creative .form-control, .creative .examples, .creative .examples-info {
+.alert-info.creative, ul.creative > li > a, .creative, .creative hr, .creative .jumbotron, .creative .form-control, .creative .examples, .creative .examples-info {
 	border-color: #D40D1C ;
 }
 
@@ -240,7 +249,7 @@ a, a:hover {
 	padding: 0 2em;
 }
 
-.col-top-right > ul, .col-bottom-left > ul{
+.col-top-right > ul, .col-bottom-left > ul, .col-top-left > ul{
 	list-style-type: none;
 	padding-left: 0.5em;
 }
@@ -251,6 +260,14 @@ a, a:hover {
 
 h2 {
 	text-align: left;
+}
+
+table {
+	margin: 1em 0;
+}
+
+tr > td.day {
+	width: 10em;
 }
 
 .jumbotron {

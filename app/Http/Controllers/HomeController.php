@@ -30,7 +30,31 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('home');
+		$topic = 'home';
+		return view('home', ['topic' => $topic]);
 	}
-
+	
+	/**
+	 * Show the application dashboard to the user.
+	 *
+	 * @return Response
+	 */
+	public function downloads()
+	{
+		$topic = 'home';
+		$title = 'Downloads';
+		return view('downloads', ['topic' => $topic, 'title' => $title]);
+	}
+	
+	/**
+	 * Show the application dashboard to the user.
+	 *
+	 * @return Response
+	 */
+	public function contacts()
+	{
+		$topic = 'home';
+		$title = 'Contact';
+		return view('contacts', ['topic' => $topic, 'title' => $title]);
+	}
 }

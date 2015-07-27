@@ -25,7 +25,7 @@ class ContactController extends Controller {
 		});
 		# Nog een bevestingsmail naar de gebruiker sturen.
 
-    	return \Redirect::route('contact')->with('message', 'Bedankt om ons te contacteren! Wij zullen uw vraag zo snel mogelijk beantwoorden.');
+    	return \Redirect::back()->with('message', 'Bedankt om ons te contacteren! Wij zullen uw vraag zo snel mogelijk beantwoorden.');
     }
 
 }

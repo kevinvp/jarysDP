@@ -12,6 +12,8 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/downloads', 'HomeController@downloads');
+Route::get('/contacts', 'HomeController@contacts');
 Route::get('/digitalPrinting', 'digitalPrintingController@index');
 Route::get('/xxl', 'xxlController@index');
 Route::get('/offset', 'offsetController@index');
@@ -25,6 +27,6 @@ Route::controllers([
 ]);
 
 Route::get('contact', 
-  ['as' => 'contact', 'uses' => 'HomeController@index']);
+  ['as' => 'contact', 'uses' => 'xxlController@index']); //Moet nog veralgemeend worden
 Route::post('contact', 
   ['as' => 'contact_store', 'uses' => 'ContactController@store']);

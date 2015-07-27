@@ -1,7 +1,7 @@
 <!--http://www.easylaravelbook.com/blog/2015/02/09/creating-a-contact-form-in-laravel-5-using-the-form-request-feature/-->
 @if(Session::has('message'))
 	<h2>Bedankt om ons te contacteren!</h2>             	
-	<div class="alert alert-info">
+	<div class="alert alert-info {{ $topic }}">
 	{{Session::get('message')}}
 	</div>
 @else
