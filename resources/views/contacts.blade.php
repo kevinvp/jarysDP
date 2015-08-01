@@ -26,7 +26,7 @@
 @section('topRight')
 	<div class="col-xs-12 col-md-6 col-top-right">
 		<h2>Route</h2>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5007.106530201673!2d4.387613101212426!3d51.13514778848258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa9f88cb9c4a31c5a!2sJary&#39;s+Digital+Printing!5e0!3m2!1snl!2sbe!4v1436101288049" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5007.106530201673!2d4.387613101212426!3d51.13514778848258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa9f88cb9c4a31c5a!2sJary&#39;s+Digital+Printing!5e0!3m2!1snl!2sbe!4v1436101288049" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div><!--/.col-xs-6.col-lg-4-->
 @stop
 

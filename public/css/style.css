@@ -1,23 +1,4 @@
 /*
- * Style tweaks
- * --------------------------------------------------
- */
-html,
-body {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-body {
-  padding-top: 70px;
-  background-color: #101010;
-  color: white;
-	font-size: 14px;
-}
-footer {
-  padding: 30px 0;
-  text-align: center;
-}
-
-/*
  * Custom Fonts
  * --------------------------------------------------
  */
@@ -35,6 +16,37 @@ footer {
     font-family: 'Myriad';
     src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
 }
+
+
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 40px;
+  background-color: #010303;
+  color: white;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+footer {
+  padding: 30px 0;
+  text-align: center;
+    font-family: 'Neuropol';
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.footer {
+    margin-top: 80px;
+    font-family: 'Neuropol';
+}
+
 
 body {
 	font-family: 'Myriad';
@@ -110,22 +122,92 @@ h2 {
     padding: 0 3em 2em 1.5em;
 }*/
 
-.home-menu-btn, ul.footer > li > a {
-	border-width: 1px;
-	border-style: solid;
-	padding: 1em;
-	background-color: #333;
-	border-radius: 6px;
+.site-logo-container {
+    text-align: center;
+}
+
+.site-logo {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.home-menu-btn  {
 	text-align: center;
-	margin: 1.5em 3em;
+    margin: 0 20px 20px 20px;
+}
+
+.home-menu-btn h1 {
+    margin: 0;
+}
+
+.home-menu-btn a  {
+    border-width: 1px;
+    border-style: solid;
+    background-color: #000;
+    border-radius: 0 10px 10px 0;
+    display: block;
+    font-size: 30px;
+    padding: 20px;
+    -webkit-transition: background-color 500ms ease-out, color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out,  color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out, color 500ms ease-out;
+    transition: background-color 500ms ease-out, color 500ms ease-out;
+}
+
+.home-menu-btn a:hover  {
+    text-decoration: none;
+    -webkit-transition: background-color 500ms ease-out, color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out,  color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out, color 500ms ease-out;
+    transition: background-color 500ms ease-out, color 500ms ease-out;
+}
+
+.footer ul {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer ul > li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer ul > li > a {
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #010303;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    margin: 0 0 40px 0;
+    padding: 2px 5px 2px 5px;
+    min-width: 100px;
+    text-transform: uppercase;
+    -webkit-transition: background-color 500ms ease-out, color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out,  color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out, color 500ms ease-out;
+    transition: background-color 500ms ease-out, color 500ms ease-out;
+}
+
+.footer ul > li > a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    -webkit-transition: background-color 500ms ease-out, color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out,  color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out, color 500ms ease-out;
+    transition: background-color 500ms ease-out, color 500ms ease-out;
+
 }
 
 .home-menu-btn a:hover, .home-menu-btn a:active, .home-menu-btn a:focus{
 	text-decoration: none;
-}
 
-.home-menu-btn h1, .home-menu-btn h1 a {
-	display: block;
 }
 
 ul.home > li > a:hover, ul.home > li > a:active {
@@ -144,13 +226,19 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #4ABEDC;
 }
 
-.alert-info.digitalPrinting, ul.digitalPrinting > li > a, .digitalPrinting, .digitalPrinting hr, .digitalPrinting .jumbotron, .digitalPrinting .form-control, .digitalPrinting .examples, .digitalPrinting .examples-info {
+.alert-info.digitalPrinting, ul.digitalPrinting > li > a, .digitalPrinting, .digitalPrinting hr, .digitalPrinting .jumbotron, .digitalPrinting .form-control, .digitalPrinting .examples, .digitalPrinting {
 	border-color: #4ABEDC;
 }
 
 .digitalPrinting .btn  {
     background-color: #4ABEDC;
     border-color: #2e6da4;
+}
+
+.home-menu-btn.digitalPrinting a:hover  {
+    border-color: #2e6da4;
+    background-color: #4ABEDC;
+    color: #fff;
 }
 
 /*
@@ -170,6 +258,12 @@ ul.home > li > a:hover, ul.home > li > a:active {
     border-color: #A12D57;
 }
 
+.home-menu-btn.xxl a:hover  {
+    border-color: #A12D57;
+    background-color: #C7376C;
+    color: #fff;
+}
+
 /*
  * Offset
  * --------------------------------------------------
@@ -187,6 +281,12 @@ ul.home > li > a:hover, ul.home > li > a:active {
     border-color: #81A911;
 }
 
+.home-menu-btn.offset a:hover  {
+    border-color: #81A911;
+    background-color: #8FBC13;
+    color: #fff;
+}
+
 /*
  * Web 2 Print
  * --------------------------------------------------
@@ -202,6 +302,12 @@ ul.home > li > a:hover, ul.home > li > a:active {
 .web2print .btn  {
     background-color: #F39911;
     border-color: #DB8A0F;
+}
+
+.home-menu-btn.web2print a:hover  {
+    border-color: #F39911;
+    background-color: #F39911;
+    color: #fff;
 }
 
 /*
@@ -223,6 +329,12 @@ ul.home > li > a:hover, ul.home > li > a:active {
     font-weight: bold;
 }
 
+.home-menu-btn.packaging a:hover  {
+    border-color: #F1E41B;
+    background-color: #F1E41B;
+    color: #fff;
+}
+
 /*
  * Creative
  * --------------------------------------------------
@@ -238,6 +350,12 @@ ul.home > li > a:hover, ul.home > li > a:active {
 .creative .btn  {
     background-color: #D40D1C;
     border-color: #BF0C19;
+}
+
+.home-menu-btn.creative a:hover  {
+    border-color: #BF0C19;
+    background-color: #D40D1C;
+    color: #fff;
 }
 
 a, a:hover {
@@ -270,11 +388,21 @@ tr > td.day {
 	width: 10em;
 }
 
-.jumbotron {
+.container .jumbotron {
 	border-width: 1px;
 	border-style: solid;
-	padding: 1em;
-	background-color: #333;
+    border-radius: 0 10px 10px 0;
+	padding:  15px 20px 15px 40px;
+    background: transparent;
+}
+
+.jumbotron h1 {
+    margin: 0;
+}
+
+.underline {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
 }
 
 .form-group {
@@ -282,10 +410,32 @@ tr > td.day {
 }
 
 .form-control {
-	padding: 0.15em 0.5em;
+	padding: 15px 20px;
 	height: 2em;
 	background-color: #333;
 	color: white;
+    border-radius: 0;
+    border: 0;
+}
+
+.btn-primary {
+    border-radius: 0;
+    background-color: transparent;
+    border-color: #fff;
+    -webkit-transition: background-color 500ms ease-out, color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out,  color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out, color 500ms ease-out;
+    transition: background-color 500ms ease-out, color 500ms ease-out;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+    -webkit-transition: background-color 500ms ease-out, color 500ms ease-out;
+    -moz-transition: background-color 500ms ease-out,  color 500ms ease-out;
+    -o-transition: background-color 500ms ease-out, color 500ms ease-out;
+    transition: background-color 500ms ease-out, color 500ms ease-out;
 }
 
 .examples, .examples-info {
@@ -296,7 +446,19 @@ tr > td.day {
 }
 
 .examples-info {
-	margin-bottom: 1em;
+	margin-bottom: 20px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.examples {
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+.google-map {
+    width: 100%;
+    height: 250px;
 }
 
 @media (min-width: 1300px) {

@@ -1,30 +1,17 @@
-<hr/>
 
-<div class="row">
-	<div class="col-md-9 col-md-offset-1 centered">
-		<div class="col-md-3">
-			<ul class="nav nav-pills nav-stacked footer {{ $topic }}">
+<div class="footer container">
+	<div class="row">
+		<div class="col-md-12 {{ $topic }}">
+			<ul>
 				<li>
 					<a href="{{ URL::to('/downloads') }}">Downloads</a>
-				</li>
-			</ul>
-		</div>
-		<div class="col-md-3">
-			<ul class="nav nav-pills nav-stacked footer {{ $topic }}">
+
 				<li>
 					<a href="#">Login</a>
 				</li>
-			</ul>
-		</div>
-		<div class="col-md-3">
-			<ul class="nav nav-pills nav-stacked footer {{ $topic }}">
 				<li>
 					<a href="{{ URL::to('/contacts') }}">Contact</a>
 				</li>
-			</ul>
-		</div>
-		<div class="col-md-3">
-			<ul class="nav nav-pills nav-stacked footer {{ $topic }}">
 				<li>
 					<a href="{{ URL::to('/') }}">Home</a>
 				</li>
@@ -33,12 +20,9 @@
 	</div>
 </div>
 <footer>
-	<p>
 		&copy; Jary's Digital Printing 2015
-	</p>
 </footer>
 
-</div><!--/.container-->
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
