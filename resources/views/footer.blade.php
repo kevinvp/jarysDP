@@ -1,5 +1,5 @@
 
-<div class="footer container">
+<div class="footer container {{ $topic }}">
 	<div class="row">
 		<div class="col-md-12 {{ $topic }}">
 			<ul>

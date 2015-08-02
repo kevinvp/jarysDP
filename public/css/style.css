@@ -43,8 +43,15 @@ footer {
 }
 
 .footer {
-    margin-top: 80px;
+    padding-top: 20px;
+    margin-top: 20px;
     font-family: 'Neuropol';
+    border-top: 2px solid #fff;
+}
+
+.footer.home {
+    margin-top: 60px;
+    border: 0;
 }
 
 
@@ -58,6 +65,12 @@ h1 {
 
 h2 {
 	font-family: 'Micro Extend';
+    margin-top :0;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
 }
 
 
@@ -218,6 +231,93 @@ ul.home > li > a:hover, ul.home > li > a:active {
 	background-color: #333;
 }
 
+.scrollable.gray-skin .scroll-bar.vertical {
+    background-color: transparent;
+    border: 0;
+}
+
+.navigate-btn {
+    display: block;
+    padding: 2px 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Neuropol';
+    text-transform: uppercase;
+}
+
+.navigate-sub-btn {
+    display: block;
+    padding: 2px 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Neuropol';
+    text-transform: uppercase;
+}
+
+.navigate-sub-btn:hover,
+.navigate-btn:hover
+{
+    text-decoration: none;
+}
+
+.nav-items {
+    display: none;
+}
+
+.nav-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-items li {
+   marign-bottom: 10px;
+}
+
+.navigation:hover .nav-items {
+    display: block;
+    font-family: 'Neuropol';
+}
+
+.center-block-content {
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+
+.border {
+    margin-top: 20px;
+    min-height: 1px;
+    border-bottom: 1px solid #fff;
+}
+
+.col-top-left {
+    border-right: 1px solid #fff;
+}
+
+.col-bottom-right {
+    border-left: 1px solid #fff;
+}
+
+.col-top-left,
+.col-top-right,
+.col-bottom-left,
+.col-bottom-right {
+    margin-top: 20px;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /*
  * Digital Printing
  * --------------------------------------------------
@@ -226,8 +326,25 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #4ABEDC;
 }
 
-.alert-info.digitalPrinting, ul.digitalPrinting > li > a, .digitalPrinting, .digitalPrinting hr, .digitalPrinting .jumbotron, .digitalPrinting .form-control, .digitalPrinting .examples, .digitalPrinting {
+.alert-info.digitalPrinting,
+ul.digitalPrinting > li > a,
+.digitalPrinting,
+.digitalPrinting hr,
+.digitalPrinting .jumbotron,
+.digitalPrinting .form-control,
+.digitalPrinting .examples,
+.digitalPrinting .examples-info,
+.digitalPrinting .underline,
+.digitalPrinting .border,
+
+{
 	border-color: #4ABEDC;
+}
+
+.digitalPrinting .navigate-btn,
+.navigate-sub-btn.dp {
+    border-color: #4ABEDC;
+    color:  #4ABEDC !important;
 }
 
 .digitalPrinting .btn  {
@@ -241,6 +358,15 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #fff;
 }
 
+.digitalPrinting .scrollable.gray-skin .scroll-bar.vertical .thumb {
+    background-color: #4ABEDC;
+}
+
+.digitalPrinting ul li a:hover, .digitalPrinting ul li a.active {
+    text-decoration: none;
+    color: #4ABEDC;
+}
+
 /*
  * XXl
  * --------------------------------------------------
@@ -249,7 +375,9 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #C7376C ;
 }
 
-.alert-info.xxl, ul.xxl > li > a, .xxl, .xxl hr, .xxl .jumbotron, .xxl .form-control, .xxl .examples, .xxl .examples-info {
+.alert-info.xxl, ul.xxl > li > a, .xxl, .xxl hr, .xxl .jumbotron, .xxl .form-control, .xxl .examples, .xxl .examples-info ,
+.xxl .underline ,
+.xxl .border {
 	border-color: #C7376C ;
 }
 
@@ -264,6 +392,22 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #fff;
 }
 
+
+.xxl .scrollable.gray-skin .scroll-bar.vertical .thumb {
+    background-color: #A12D57;
+}
+
+.xxl .navigate-btn,
+.navigate-sub-btn.xxl {
+    border-color: #C7376C;
+    color:  #C7376C  !important;
+}
+
+.xxl ul li a:hover, .xxl ul li a.active {
+    text-decoration: none;
+    color: #C7376C;
+}
+
 /*
  * Offset
  * --------------------------------------------------
@@ -272,7 +416,9 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #8FBC13 ;
 }
 
-.alert-info.offset, ul.offset > li > a, .offset, .offset hr, .offset .jumbotron, .offset .form-control, .offset .examples, .offset .examples-info {
+.alert-info.offset, ul.offset > li > a, .offset, .offset hr, .offset .jumbotron, .offset .form-control, .offset .examples, .offset .examples-info,
+.offset .underline ,
+.offset .border {
 	border-color: #8FBC13 ;
 }
 
@@ -287,6 +433,21 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #fff;
 }
 
+.offset .scrollable.gray-skin .scroll-bar.vertical .thumb {
+    background-color: #8FBC13;
+}
+
+.offset .navigate-btn,
+.navigate-sub-btn.offset {
+    border-color: #81A911;
+    color:  #81A911 !important;
+}
+
+.offset ul li a:hover, .offset ul li a.active {
+    text-decoration: none;
+    color: #81A911;
+}
+
 /*
  * Web 2 Print
  * --------------------------------------------------
@@ -295,7 +456,10 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #F39911 ;
 }
 
-.alert-info.web2print, ul.web2print > li > a, .web2print, .web2print hr, .web2print .jumbotron, .web2print .form-control, .web2print .examples, .web2print .examples-info {
+.alert-info.web2print, ul.web2print > li > a, .web2print, .web2print hr, .web2print .jumbotron, .web2print .form-control, .web2print .examples, .web2print .examples-info,
+.web2print .underline,
+.web2print .border
+{
 	border-color: #F39911 ;
 }
 
@@ -310,6 +474,23 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #fff;
 }
 
+.web2print .scrollable.gray-skin .scroll-bar.vertical .thumb {
+    background-color: #F39911;
+}
+
+.web2print .navigate-btn,
+.navigate-sub-btn.w2p {
+    border-color: #F39911;
+    color:  #F39911 !important;
+}
+
+
+.web2print ul li a:hover, .web2print ul li a.active {
+    text-decoration: none;
+    color: #F39911;
+}
+
+
 /*
  * Packaging
  * --------------------------------------------------
@@ -318,7 +499,9 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #F1E41B ;
 }
 
-.alert-info.packaging, ul.packaging > li > a, .packaging, .packaging hr, .packaging .jumbotron, .packaging .form-control, .packaging .examples, .packaging .examples-info {
+.alert-info.packaging, ul.packaging > li > a, .packaging, .packaging hr, .packaging .jumbotron, .packaging .form-control, .packaging .examples, .packaging .examples-info,
+.packaging .underline ,
+.packaging .border {
 	border-color: #F1E41B ;
 }
 
@@ -335,6 +518,22 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #fff;
 }
 
+.packaging .scrollable.gray-skin .scroll-bar.vertical .thumb {
+    background-color: #F1E41B;
+}
+
+.packaging .navigate-btn,
+.navigate-sub-btn.pa {
+    border-color: #F1E41B;
+    color:  #F1E41B !important;
+}
+
+.packaging ul li a:hover, .packaging ul li a.active {
+    text-decoration: none;
+    color: #F1E41B;
+}
+
+
 /*
  * Creative
  * --------------------------------------------------
@@ -343,7 +542,10 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #D40D1C ;
 }
 
-.alert-info.creative, ul.creative > li > a, .creative, .creative hr, .creative .jumbotron, .creative .form-control, .creative .examples, .creative .examples-info {
+.alert-info.creative, ul.creative > li > a, .creative, .creative hr, .creative .jumbotron, .creative .form-control, .creative .examples, .creative .examples-info,
+.creative .underline,
+.creative .border
+{
 	border-color: #D40D1C ;
 }
 
@@ -358,13 +560,28 @@ ul.home > li > a:hover, ul.home > li > a:active {
     color: #fff;
 }
 
+.creative .scrollable.gray-skin .scroll-bar.vertical .thumb {
+    background-color: #BF0C19;
+}
+
+.creative .navigate-btn,
+.navigate-sub-btn.crea {
+    border-color: #BF0C19;
+    color:  #BF0C19 !important;
+}
+
+.creative ul li a:hover, .creative ul li a.active {
+    text-decoration: none;
+    color: #BF0C19;
+}
+
+
 a, a:hover {
     color: white;
 }
 
 .col-top-left, .col-top-right, .col-bottom-left, .col-bottom-right {
 	text-align: justify;
-	padding: 0 2em;
 }
 
 .col-top-right > ul, .col-bottom-left > ul, .col-top-left > ul{
@@ -448,12 +665,12 @@ tr > td.day {
 .examples-info {
 	margin-bottom: 20px;
     max-height: 150px;
-    overflow-y: scroll;
+    height: 150px;
 }
 
 .examples {
     max-height: 450px;
-    overflow-y: scroll;
+    height: 450px;
 }
 
 .google-map {
@@ -461,6 +678,9 @@ tr > td.day {
     height: 250px;
 }
 
-@media (min-width: 1300px) {
+@media (max-width: 992px) {
+    .nav-items {
+        display: block;
+    }
 
 }
