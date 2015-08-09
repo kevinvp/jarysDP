@@ -18,7 +18,9 @@ class digitalPrintingController extends Controller {
 		$title = 'Digital Printing';
 
 		$dir = 'jarys/dp/folders';
-		$files = scandir($dir, 1);
+		$files = array_diff(scandir($dir,1), array('..', '.'));
+
+
 
 		return view('digital_printing', ['topic' => $topic, 'title' => $title, 'files' => $files]);
 	}

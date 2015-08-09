@@ -64,10 +64,33 @@
 								<div class="row examples-info top-info gray-skin js-scroll" >
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate odio nec nisi malesuada luctus. Donec tincidunt ut est a consectetur. Curabitur porta, urna vitae tempor luctus, turpis nisi venenatis augue, at sodales nibh elit quis ligula. Donec vitae molestie elit. Aliquam vel aliquet lorem. Etiam quis quam sit amet velit eleifend hendrerit. Aliquam erat volutpat. Aenean egestas odio sit amet est venenatis accumsan. Sed vestibulum quam non scelerisque pharetra.
 								</div>
-								<div class='row examples bot-info gray-skin js-scroll'>
-									@foreach ($files as $file)
-										<img src="../public/jarys/dp/folders/{{ $file }}" class="side-img"/>
-									@endforeach
+									@if (isset($files) && count($files) > 1)
+										<div class='row examples bot-info gray-skin js-scroll' data-images="{{ json_encode($files) }}">
+									@else
+										<div class='row examples bot-info gray-skin js-scroll' data-images="[]">
+											De vraag naar betaalbaar en kwalitatief
+											hoogwaardig drukwerk in kleinere oplages, al dan
+											niet gepersonaliseerd, blijft sterk stijgen. Steeds
+											meer bedrijven maken hier gebruik van en zien de
+											vele mogelijkheden. Digitaal drukken is daarom
+											ook uitermate geschikt voor kleinere oplagen, adhoc
+											producties, drukwerk dat actueel moet zijn of
+											mutatiegevoelig is.
+											Met ons performant machinepark en onze oplossingen
+											komen wij te gemoed aan deze verzuchtingen.
+<br/>
+											De vraag naar betaalbaar en kwalitatief
+											hoogwaardig drukwerk in kleinere oplages, al dan
+											niet gepersonaliseerd, blijft sterk stijgen. Steeds
+											meer bedrijven maken hier gebruik van en zien de
+											vele mogelijkheden. Digitaal drukken is daarom
+											ook uitermate geschikt voor kleinere oplagen, adhoc
+											producties, drukwerk dat actueel moet zijn of
+											mutatiegevoelig is.
+											Met ons performant machinepark en onze oplossingen
+											komen wij te gemoed aan deze verzuchtingen.
+									@endif
+									Informatie
 								</div>
 						</div>
 					</div>
