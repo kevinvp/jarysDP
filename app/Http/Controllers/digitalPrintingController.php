@@ -16,7 +16,14 @@ class digitalPrintingController extends Controller {
 	{
 		$topic = 'digitalPrinting';
 		$title = 'Digital Printing';
-		
-		return view('digital_printing', ['topic' => $topic, 'title' => $title]);
+
+		$dir = 'jarys/dp/folders';
+		$files = scandir($dir, 1);
+
+		return view('digital_printing', ['topic' => $topic, 'title' => $title, 'files' => $files]);
+	}
+
+	public function getFiles() {
+
 	}
 }

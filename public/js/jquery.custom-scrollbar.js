@@ -692,11 +692,9 @@
       else
         throw "Invalid type of options";
     });
-
   }
   ;
 
-  console.log('init');
 
   $( document ).ready(function() {
     $(".js-scroll").customScrollbar();

@@ -678,6 +678,10 @@ tr > td.day {
     height: 250px;
 }
 
+.side-img {
+    width: 100%;
+}
+
 @media (max-width: 992px) {
     .nav-items {
         display: block;

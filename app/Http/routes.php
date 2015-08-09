@@ -30,3 +30,5 @@ Route::get('contact',
   ['as' => 'contact', 'uses' => 'xxlController@index']); //Moet nog veralgemeend worden
 Route::post('contact', 
   ['as' => 'contact_store', 'uses' => 'ContactController@store']);
+
+
